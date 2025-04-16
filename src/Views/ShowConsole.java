@@ -26,6 +26,16 @@ public class ShowConsole {
         return codigo;
     }
 
+    public String getNombre(){
+        System.out.println("Ingrese nombre: ");
+        scanner.nextLine();
+        String nombre = scanner.nextLine();
+        System.out.println("Nombre ingresado: " + nombre);
+        return nombre;
+    }
+    
+
+
     public void showMessage(String mesagge){
         System.out.println(mesagge);
     }
